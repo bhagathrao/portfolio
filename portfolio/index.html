@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bhagath Rao — Backend developer specializing in Java and Spring Boot. Building scalable, real-world backend systems." />
+  <title>Bhagath Rao | Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>BR<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link" data-nav="home">Home</a></li>
+        <li><a href="#about"    class="nav-link" data-nav="about">About</a></li>
+        <li><a href="#projects" class="nav-link" data-nav="projects">Projects</a></li>
+        <li><a href="#contact"  class="nav-link" data-nav="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="hero-intro" data-animate="fade-up" data-delay="0">Hi, my name is</p>
+      <h1 class="hero-name" data-animate="fade-up" data-delay="100">Bhagath Rao</h1>
+      <h2 class="hero-tagline" data-animate="fade-up" data-delay="200">
+        I build <span class="accent">scalable</span>, real-world backend systems.
+      </h2>
+      <p class="hero-bio" data-animate="fade-up" data-delay="300">
+        I'm a backend-focused developer working with <span class="accent">Java</span> and <span class="accent">Spring Boot</span>.
+        I enjoy building REST APIs, handling data, and solving real-world problems.
+      </p>
+      <div class="hero-actions" data-animate="fade-up" data-delay="400">
+        <a href="#projects" class="btn btn-primary" id="exploreCta">
+          Explore My Work
+          <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" data-animate="fade-up" data-delay="600">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">// about me</span>
+        <h2 class="section-title">What drives my <span class="accent">work</span></h2>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Bio Card -->
+        <div class="about-bio-card" data-animate="fade-up" data-delay="100">
+          <p class="about-bio-text">
+            I'm a backend developer focused on <span class="accent">Java</span> and <span class="accent">Spring Boot</span>,
+            with a strong interest in building scalable systems and clean APIs. I enjoy solving real-world problems
+            through practical projects and continuously improving my development skills.
+          </p>
+          <p class="about-bio-text">
+            I primarily focus on backend development while having a basic understanding of frontend technologies.
+          </p>
+        </div>
+
+        <!-- Skills Card -->
+        <div class="about-skills-card" data-animate="fade-up" data-delay="150">
+          <div class="skills-header">
+            <span class="skills-dot"></span>
+            <span class="skills-label">BACKEND SKILLS</span>
+          </div>
+          <div class="skills-tags">
+            <span class="skill-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+              Java
+            </span>
+            <span class="skill-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0114.08 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01"/></svg>
+              Spring Boot
+            </span>
+            <span class="skill-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              REST APIs
+            </span>
+            <span class="skill-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 006 0v-1a10 10 0 10-3.92 7.94"/></svg>
+              Git &amp; GitHub
+            </span>
+          </div>
+        </div>
+
+        <!-- Currently Learning Card -->
+        <div class="about-learning-card" data-animate="fade-up" data-delay="200">
+          <div class="skills-header">
+            <span class="skills-dot skills-dot--learning"></span>
+            <span class="skills-label">CURRENTLY LEARNING</span>
+          </div>
+          <ul class="learning-list">
+            <li class="learning-item">
+              <div class="learning-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+              </div>
+              <div>
+                <p class="learning-name">Data Structures &amp; Algorithms</p>
+                <p class="learning-sub">Problem solving &amp; optimization</p>
+              </div>
+            </li>
+            <li class="learning-item">
+              <div class="learning-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div>
+                <p class="learning-name">System Design Basics</p>
+                <p class="learning-sub">Scalability &amp; architecture patterns</p>
+              </div>
+            </li>
+            <li class="learning-item">
+              <div class="learning-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <p class="learning-name">React</p>
+                <p class="learning-sub">Frontend fundamentals</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">// featured work</span>
+        <h2 class="section-title">Systems I've <span class="accent">built</span></h2>
+        <p class="section-subtitle">Real-world problems solved with clean, scalable architecture.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Code Review Agent -->
+        <article class="project-card" data-animate="fade-up" data-delay="100" id="project-code-review">
+          <div class="card-inner">
+            <div class="card-top">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div class="card-status">
+                <span class="status-dot"></span>
+                <span>Active</span>
+              </div>
+            </div>
+            <h3 class="card-title">Code Review Agent</h3>
+            <p class="card-desc">
+              Developers often struggle with upgrading code due to deprecated methods and breaking changes.
+              This tool analyzes outdated code and suggests safe updates, highlighting what needs manual intervention.
+            </p>
+            <ul class="card-features">
+              <li>
+                <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>
+                Upload code &amp; select version
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>
+                View changes in diff format
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>
+                AI-powered explanations
+              </li>
+            </ul>
+            <div class="card-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">AI</span>
+              <span class="tag">REST API</span>
+            </div>
+            <div class="card-actions">
+              <a href="https://code-review-agent-v1.onrender.com/" target="_blank" rel="noopener" class="card-btn card-btn-primary" id="demo-code-review">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                Live Demo
+              </a>
+              <a href="https://github.com/bhagathrao" target="_blank" rel="noopener" class="card-btn card-btn-ghost" id="github-code-review">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+          <div class="card-glow"></div>
+        </article>
+
+        <!-- Project 2: QR Based Attendance System -->
+        <article class="project-card project-card--dim" data-animate="fade-up" data-delay="200" id="project-qr-attendance">
+          <div class="card-inner">
+            <div class="card-top">
+              <div class="card-icon card-icon--dim">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+                  <rect x="3" y="14" width="7" height="7" rx="1"/>
+                  <path d="M14 14h2v2h-2zM18 14h3M14 18h3M20 18v3M14 21h3"/>
+                </svg>
+              </div>
+              <div class="card-status card-status--soon">
+                <span class="status-dot status-dot--dim"></span>
+                <span>Coming Soon</span>
+              </div>
+            </div>
+            <h3 class="card-title">QR Based Attendance System</h3>
+            <p class="card-desc">
+              Organizations struggle to track attendance efficiently with manual or error-prone methods.
+              This system generates session-specific QR codes, allowing students or employees to mark
+              attendance by scanning — with real-time tracking and an admin dashboard.
+            </p>
+            <ul class="card-features">
+              <li>
+                <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>
+                Dynamic QR code generation per session
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>
+                Real-time attendance tracking
+              </li>
+              <li>
+                <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3"/></svg>
+                Admin dashboard &amp; reports
+              </li>
+            </ul>
+            <div class="card-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">REST API</span>
+            </div>
+            <div class="card-coming-soon-badge">In Progress</div>
+          </div>
+          <div class="card-glow card-glow--dim"></div>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">// get in touch</span>
+        <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+        <p class="section-subtitle">Open to full-time roles, freelance projects, and interesting conversations.</p>
+      </div>
+
+      <div class="contact-card" data-animate="fade-up" data-delay="100">
+        <div class="contact-card-inner">
+          <div class="contact-avatar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z"/>
+            </svg>
+          </div>
+          <h3 class="contact-name">Bhagath Rao</h3>
+          <p class="contact-role">Backend Developer · Java &amp; Spring Boot</p>
+
+          <div class="contact-links">
+            <a href="mailto:bhagathv5108@gmail.com" class="contact-btn contact-btn--email" id="email-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              Email Me
+            </a>
+            <a href="https://www.linkedin.com/in/bhagath-rao-301695331?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="contact-btn contact-btn--linkedin" id="linkedin-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/bhagathrao" target="_blank" rel="noopener" class="contact-btn contact-btn--github" id="github-contact-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div class="contact-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-container">
+      <a href="#home" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>BR<span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-copy">© 2026 Bhagath Rao. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/bhagathrao" target="_blank" rel="noopener" aria-label="GitHub" id="footer-github">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/bhagath-rao-301695331?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn" id="footer-linkedin">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
